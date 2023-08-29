@@ -1,0 +1,12 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(158, 179, 132);
+  z-index: 0;
+}

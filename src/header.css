@@ -1,0 +1,29 @@
+p {
+  color: #faf1e4;
+  font-size: 1.2em;
+  padding-left: 3em;
+}
+
+.header {
+  background-color: rgb(67, 83, 52, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid black;
+  position: sticky;
+}
+
+.logo {
+  padding-right: 13em;
+  padding-left: 8em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  z-index: 9;
+}
