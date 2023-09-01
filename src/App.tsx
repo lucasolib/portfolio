@@ -1,12 +1,14 @@
 import './App.css';
-import Header from './header';
+import Header from './Header';
+import About from './About';
 
 function App() {
   return (
     <div>
       <Header />
       <h1>Olá e bem vindo ao meu portfólio.</h1>
-      <h2>Me chamo Lucas de Olivera Batista e essa é a versão 0.1 do meu porfólio!</h2>
+      <h2>Me chamo Lucas de Olivera Batista e essa é a versão 0.2 do meu porfólio!</h2>
+      <About />
       <h5>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel mi in odi
         Sed convallis felis id turpis egestas fringilla. Morbi pulvinar viverra nulla,

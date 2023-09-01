@@ -1,4 +1,4 @@
-import './header.css';
+import './Header.css';
 import { useEffect } from 'react';
 
 function Header() {
@@ -23,7 +23,9 @@ function Header() {
     <div className="header" id="stickyHeader">
       <p className="logo">Futura Logo</p>
       <p>Início</p>
-      <p>Sobre mim</p>
+      <a href="#about">
+        <p>Sobre mim</p>
+      </a>
       <p>Habilidades</p>
       <p>Projetos</p>
       <p>Contatos</p>

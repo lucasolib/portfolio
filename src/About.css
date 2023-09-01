@@ -1,0 +1,23 @@
+.aboutPage {
+  /* border: 3px solid red; */
+  background-color: rgb(138, 160, 116);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMe {
+  /* border: 3px solid blue; */
+  font-size: 3em;
+  color: white;
+}
+
+.aboutText {
+  /* border: 3px solid yellow; */
+  color: white;
+  width: 30%;
+  font-size: 1.5em;
+}
