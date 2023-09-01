@@ -1,4 +1,4 @@
-import './Beginning.css';
+import './css/Beginning.css';
 
 function Beginning() {
   return (

@@ -1,0 +1,45 @@
+.skillsPage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsTitle {
+  font-size: 3.4em;
+}
+
+.iconsContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 3em;
+}
+
+.skillsDescriptions {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsText {
+  font-size: 1.6em;
+  color: black;
+}
+
+.outsideIcon {
+  border: 2px solid rgb(89, 110, 68);
+  background-color: rgba(60, 78, 43, 0.377);
+  border-radius: 50%;
+  padding: 0.4em;
+  margin: 0.4em;
+}
+
+.icons {
+  height: 3em;
+  width: 3em;
+  margin: 0.5em;
+}

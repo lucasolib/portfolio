@@ -1,4 +1,4 @@
-import './Header.css';
+import './css/Header.css';
 import { useEffect } from 'react';
 
 function Header() {
@@ -28,7 +28,9 @@ function Header() {
       <a href="#about">
         <p>Sobre mim</p>
       </a>
-      <p>Habilidades</p>
+      <a href="#skills">
+        <p>Habilidades</p>
+      </a>
       <p>Projetos</p>
       <p>Contatos</p>
     </div>
