@@ -1,5 +1,4 @@
-.aboutPage {
-  background-color: rgb(138, 160, 116);
+.beginningPage {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -8,13 +7,12 @@
   justify-content: center;
 }
 
-.aboutMe {
+.beginningTitle {
   font-size: 3em;
-  color: white;
+  color: black;
 }
 
-.aboutText {
-  color: white;
-  width: 30%;
-  font-size: 1.5em;
+.beginningText {
+  font-size: 2em;
+  color: black;
 }

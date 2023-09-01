@@ -22,7 +22,9 @@ function Header() {
   return (
     <div className="header" id="stickyHeader">
       <p className="logo">Futura Logo</p>
-      <p>Início</p>
+      <a href="#beginning">
+        <p>Início</p>
+      </a>
       <a href="#about">
         <p>Sobre mim</p>
       </a>
