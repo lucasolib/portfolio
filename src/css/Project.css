@@ -1,0 +1,34 @@
+.projectPage {
+  background-color: rgb(138, 160, 116);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectTitle {
+  font-size: 3.4em;
+}
+
+.description {
+  color: black;
+  font-size: 1.3em;
+}
+
+.projects {
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.soonImg {
+  width: 250px;
+  height: 150px;
+  border-radius: 20%;
+  margin: 20px;
+}

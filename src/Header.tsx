@@ -31,7 +31,9 @@ function Header() {
       <a href="#skills">
         <p>Habilidades</p>
       </a>
-      <p>Projetos</p>
+      <a href="#project">
+        <p>Projetos</p>
+      </a>
       <p>Contatos</p>
     </div>
   );
