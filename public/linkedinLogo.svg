@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126" width="126" height="126">
-	<title>linkedinLogo</title>
-	<defs>
-		<image  width="126" height="126" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAAXNSR0IB2cksfwAAAFpQTFRFJCkvTHOpf6HOiqzUcJTK3eXt///////+d53PnbjYqbzbkbLWrsXgOlqFapDJucvl1eDt4ezy8fj4KTtQ7vX5XYnH7vX5l7PZwtLn0Nvri6TVgZ3RfpnSJjE+XVxHQgAAAB50Uk5T/wAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAuQrSMQAAAbRJREFUeJztmX1vgjAQh8smdxNfkDIK6vb9v+aqFr3CoiaU45/fExNMiXnao71r0RgAAAAAAAAAAECN7OPzI1tKvsrJw/nXIvY1MfsPExUL2DcU8B3Yqtt3THeY9tr6kljoD9r6SoyeyCrba0uRXzn6O4r12ovvO5p61Cjrczl2csp208qZz5223tgQ9utF3W6yS8K9QSt9vWlcv+jVc96NdeXIVUsUnJ7Fqj0AC9EWD9rQ1oi2IiyKuj2GBGHzbbr8JGtOv9s4yTJ0vnboEJUmsuv0eu4L3kluAi76MuyFH8WJXJoIvKPPr0KSet+fzXz6u5/pxzj6B9+BFA/gud5fzlW8HxP+BON/pWc3CPw9LP4JTC8VL4L/nHxJPSc4Fk0ZPdNRQy/WfDQP/HcV/SXTdmV3sKNpODX5vBX8PsfW26F+6tp/Ry8Ovpnl6N7Uk8FLPQ8Ucfxn1w9PXm3kn18/nF2VfC6z60fHzoI0Rz9639Sojv40/MVOb+px2GxJagu9jp6hhx566KGHHnrooU+jf/JacTZ90T0oQ9tetHWjv/Z+S3G3Hd4FAAAAAAAAAABAev4A9QpGLnboY8wAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-	</style>
-	<use id="Background" href="#img1" x="0" y="0"/>
-</svg>
