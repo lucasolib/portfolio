@@ -2,7 +2,7 @@ import './css/Contact.css';
 
 function Contact() {
   return (
-    <div className="contactPage">
+    <div className="contactPage" id="contact">
       <ul className="socialMediaButtons">
         <li>
           <a href="https://github.com/lucasolib" target="_blank" rel="noreferrer">
