@@ -143,8 +143,22 @@ function Skills() {
               className="icons"
             />
           </div>
-          <button type="button" onClick={ nextSkill }>Próximo</button>
-          <button type="button" onClick={ previousSkill }>Anterior</button>
+          <button
+            type="button"
+            onClick={ previousSkill }
+            className="arrowButtonLeft"
+          >
+            <span className="arrow" />
+            Anterior
+          </button>
+          <button
+            type="button"
+            onClick={ nextSkill }
+            className="arrowButton"
+          >
+            Próximo
+            <span className="arrow" />
+          </button>
         </div>
         <p className="skillsText">Futuro texto sobre descrição das Skills</p>
       </div>
