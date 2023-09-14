@@ -1,6 +1,31 @@
 import './css/Skills.css';
+import { useState } from 'react';
 
 function Skills() {
+  const skills = ['git', 'github', 'html', 'css', 'js', 'ts', 'jest', 'react', 'redux',
+    'docker', 'express', 'mysql', 'sequelize', 'node', 'mongodb', 'python'];
+  // const skillsImgs = {
+  //   git: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg',
+  //   github: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg',
+  //   html: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg',
+  //   css: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg',
+  // };
+  const [selectedSkill, setSelectedSkill] = useState(skills[0]);
+
+  const nextSkill = () => {
+    const index = skills.indexOf(selectedSkill);
+    if (index >= skills.length - 1) {
+      return setSelectedSkill(skills[0]);
+    } return setSelectedSkill(skills[index + 1]);
+  };
+
+  const previousSkill = () => {
+    const index = skills.indexOf(selectedSkill);
+    if (index <= 0) {
+      return setSelectedSkill(skills[skills.length - 1]);
+    } return setSelectedSkill(skills[index - 1]);
+  };
+
   return (
     <div className="skillsPage" id="skills">
       <h1 className="skillsTitle">Habilidades</h1>
@@ -118,6 +143,8 @@ function Skills() {
               className="icons"
             />
           </div>
+          <button type="button" onClick={ nextSkill }>Próximo</button>
+          <button type="button" onClick={ previousSkill }>Anterior</button>
         </div>
         <p className="skillsText">Futuro texto sobre descrição das Skills</p>
       </div>
