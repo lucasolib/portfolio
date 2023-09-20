@@ -10,10 +10,11 @@
 
 .projectTitle {
   font-size: 3.4em;
+  color: rgb(250, 241, 228);
 }
 
 .description {
-  color: black;
+  color: rgb(250, 241, 228);
   font-size: 1.3em;
 }
 
