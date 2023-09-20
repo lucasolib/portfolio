@@ -22,19 +22,19 @@ function Header() {
   return (
     <div className="header" id="stickyHeader">
       <p className="logo">Futura Logo</p>
-      <a href="#beginning">
+      <a className="link" href="#beginning">
         <p>Início</p>
       </a>
-      <a href="#about">
+      <a className="link" href="#about">
         <p>Sobre mim</p>
       </a>
-      <a href="#skills">
+      <a className="link" href="#skills">
         <p>Habilidades</p>
       </a>
-      <a href="#project">
+      <a className="link" href="#project">
         <p>Projetos</p>
       </a>
-      <a href="#contact">
+      <a className="link" href="#contact">
         <p>Contatos</p>
       </a>
     </div>
