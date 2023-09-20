@@ -37,15 +37,27 @@ function Skills() {
       <div className="skillsContent">
         <div className="iconsAndButtons">
           <ul className="iconsContainer">
-            {skills.map((skill) => (
-              <li key={ skill } className="outsideIcon">
-                <img
-                  src={ skillsImgs[skill] }
-                  alt={ `${skill} Icon` }
-                  className="icons"
-                />
-              </li>
-            ))}
+            {skills.map((skill) => {
+              if (skill === selectedSkill) {
+                return (
+                  <li key={ skill } className="selectedIcon">
+                    <img
+                      src={ skillsImgs[skill] }
+                      alt={ `${skill} Icon` }
+                      className="icons"
+                    />
+                  </li>
+                );
+              } return (
+                <li key={ skill } className="outsideIcon">
+                  <img
+                    src={ skillsImgs[skill] }
+                    alt={ `${skill} Icon` }
+                    className="icons"
+                  />
+                </li>
+              );
+            })}
           </ul>
           <Buttons previousSkill={ previousSkill } nextSkill={ nextSkill } />
         </div>

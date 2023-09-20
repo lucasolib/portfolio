@@ -34,6 +34,14 @@
   margin: 0.4em;
 }
 
+.selectedIcon {
+  border: 2px solid rgb(250, 241, 228);
+  background-color: rgba(250, 250, 250, 0.2);
+  border-radius: 50%;
+  padding: 0.4em;
+  margin: 0.4em;
+}
+
 .icons {
   height: 3em;
   width: 3em;
