@@ -2,6 +2,7 @@ import './css/Skills.css';
 import { useState, useEffect } from 'react';
 import skillsImgs from './skillsImgs';
 import skillsDescriptions from './skillsDescriptions';
+import Buttons from './components/Buttons';
 
 function Skills() {
   const skills = ['git', 'github', 'html', 'css', 'js', 'ts', 'jest', 'react', 'redux',
@@ -33,136 +34,20 @@ function Skills() {
   return (
     <div className="skillsPage" id="skills">
       <h1 className="skillsTitle">Habilidades</h1>
-      <div className="skillsDescriptions">
-        <div className="iconsContainer">
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.git }
-              alt="Git Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.github }
-              alt="GitHub Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.html }
-              alt="HTML5 Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.css }
-              alt="CSS3 Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.js }
-              alt="JavaScript Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.ts }
-              alt="TypeScript Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.jest }
-              alt="Jest Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.react }
-              alt="React Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.redux }
-              alt="Redux Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.docker }
-              alt="Docker Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.express }
-              alt="Express Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.mysql }
-              alt="MySQL Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.sequelize }
-              alt="Sequelize Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.node }
-              alt="NodeJS Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.mongodb }
-              alt="MongoDB Icon"
-              className="icons"
-            />
-          </div>
-          <div className="outsideIcon">
-            <img
-              src={ skillsImgs.python }
-              alt="Python Icon"
-              className="icons"
-            />
-          </div>
-          <button
-            type="button"
-            onClick={ previousSkill }
-            className="arrowButtonLeft"
-          >
-            <span className="arrow" />
-            Anterior
-          </button>
-          <button
-            type="button"
-            onClick={ nextSkill }
-            className="arrowButton"
-          >
-            Próximo
-            <span className="arrow" />
-          </button>
+      <div className="skillsContent">
+        <div className="iconsAndButtons">
+          <ul className="iconsContainer">
+            {skills.map((skill) => (
+              <li key={ skill } className="outsideIcon">
+                <img
+                  src={ skillsImgs[skill] }
+                  alt={ `${skill} Icon` }
+                  className="icons"
+                />
+              </li>
+            ))}
+          </ul>
+          <Buttons previousSkill={ previousSkill } nextSkill={ nextSkill } />
         </div>
         <div className="descriptionSkill">
           <img
