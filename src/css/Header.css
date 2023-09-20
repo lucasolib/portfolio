@@ -45,6 +45,7 @@ p {
   font-weight: bolder;
   font-style: italic;
   outline: 2px solid white;
+  border-radius: 15%;
 }
 
 .link:hover p ::after {
