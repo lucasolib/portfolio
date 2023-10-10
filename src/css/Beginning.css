@@ -16,3 +16,29 @@
   font-size: 2em;
   color: rgb(250, 241, 228);
 }
+
+@media screen and (max-width: 818px) {
+  .beginningPage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beginningTitle {
+    font-size: 2.5em;
+    color: rgb(250, 241, 228);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beginningText {
+    font-size: 2em;
+    color: rgb(250, 241, 228);
+    align-items: center;
+    justify-content: center;
+  }
+}
