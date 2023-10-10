@@ -31,13 +31,15 @@
   }
 
   .aboutMe {
-    font-size: 3em;
+    font-size: 12vw;
     color: white;
+    text-align: center;
   }
 
   .aboutText {
     color: white;
     width: 80%;
     font-size: 1.5em;
+    text-align: center;
   }
 }

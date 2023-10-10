@@ -61,26 +61,26 @@
   position: relative;
   background-color: rgba(38, 46, 31, 0.7);
   border-radius: 15%;
-  width: 50vw;
-  height: 40vw;
+  width: 40vw;
+  height: 30vw;
   margin-bottom: 1em;
   margin-left: 7vw;
 }
 
 .skillsText {
-  text-align: start;
+  width: 90%;
+  text-align: center;
   position: relative;
   color: rgb(250, 241, 228);
   font-size: 30px;
-  left: -1em;
 }
 
 .backgroundIcon {
   opacity: 0.5;
   position: absolute;
-  left: 3.45em;
+  left: 6vw;
   top: 0;
-  width: 80%;
+  width: 70%;
   height: auto;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -193,4 +193,65 @@
 .arrowButtonLeft:hover {
   background-color: #003522;
   color: #fff;
+}
+
+@media screen and (max-width: 818px) {
+  .skillsPage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .skillsTitle {
+    font-size: 12vw;
+    color: rgb(250, 241, 228);
+    margin-bottom: 20vw;
+  }
+
+  .skillsContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .iconsContainer {
+    display: none;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0em;
+    margin-top: 5vw;
+  }
+
+  .descriptionSkill {
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(38, 46, 31, 0.7);
+    border-radius: 15%;
+    width: 50vw;
+    height: 40vw;
+    margin-bottom: 9vw;
+    margin-left: 0vw;
+  }
+
+  .skillsText {
+    display: none;
+  }
+
+  .backgroundIcon {
+    opacity: 1;
+    position: absolute;
+    left: 5.6vw;
+    top: 0vw;
+    width: 78%;
+    height: auto;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
 }

@@ -45,8 +45,8 @@ function Projects() {
     <div className="projectPage" id="project">
       <h1 className="projectTitle">Projetos</h1>
       <ul className="projects">
-        {projects.map((i) => (
-          <li key={ i }>
+        {projects.map((project) => (
+          <li key={ project }>
             <img src="https://i.imgur.com/hsg3wCj.png" alt="Em breve" className="soonImg" />
             <p className="description">
               Nome: Em breve

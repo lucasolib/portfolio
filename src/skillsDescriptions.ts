@@ -41,7 +41,7 @@ const skillsDescriptions: ISkills = {
   previsível e centralizada, tornando o fluxo de dados e as atualizações de
   estado mais controlados e fáceis de rastrear.`,
   docker: `Docker é uma plataforma de código aberto que permite a criação,
-  implantação e execução de aplicativos em contêineres. Contêineres são ambientes
+  implantação e execução de aplicativos em contêineres, que são ambientes
   isolados e leves que contêm tudo o que um aplicativo precisa para funcionar,
   incluindo o código, as bibliotecas e as dependências. Esses contêineres podem ser
   executados de forma consistente em diferentes sistemas operacionais e ambientes,

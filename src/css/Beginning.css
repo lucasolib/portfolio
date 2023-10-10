@@ -33,6 +33,7 @@
     color: rgb(250, 241, 228);
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
   .beginningText {
@@ -40,5 +41,6 @@
     color: rgb(250, 241, 228);
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 }
