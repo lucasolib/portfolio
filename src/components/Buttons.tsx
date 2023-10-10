@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 
-function Buttons({ previousSkill, nextSkill }:
-{ previousSkill: () => void, nextSkill: () => void }) {
+function Buttons({ previous, next }:
+{ previous: () => void, next: () => void }) {
   return (
     <div className="buttons">
       <button
         type="button"
-        onClick={ previousSkill }
+        onClick={ previous }
         className="arrowButtonLeft"
       >
         <span className="arrow" />
@@ -14,7 +14,7 @@ function Buttons({ previousSkill, nextSkill }:
       </button>
       <button
         type="button"
-        onClick={ nextSkill }
+        onClick={ next }
         className="arrowButton"
       >
         Próximo
@@ -25,8 +25,8 @@ function Buttons({ previousSkill, nextSkill }:
 }
 
 Buttons.propTypes = {
-  previousSkill: PropTypes.func.isRequired,
-  nextSkill: PropTypes.func.isRequired,
+  previous: PropTypes.func.isRequired,
+  next: PropTypes.func.isRequired,
 };
 
 export default Buttons;

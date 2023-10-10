@@ -59,7 +59,7 @@ function Skills() {
               );
             })}
           </ul>
-          <Buttons previousSkill={ previousSkill } nextSkill={ nextSkill } />
+          <Buttons previous={ previousSkill } next={ nextSkill } />
         </div>
         <div className="descriptionSkill">
           <img
