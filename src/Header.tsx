@@ -21,7 +21,11 @@ function Header() {
 
   return (
     <div className="header" id="stickyHeader">
-      <p className="logo">Futura Logo</p>
+      <img
+        className="logo"
+        alt="portfolioLogo"
+        src="https://i.imgur.com/GFyTxKs.png"
+      />
       <a className="link" href="#beginning">
         <p>Início</p>
       </a>

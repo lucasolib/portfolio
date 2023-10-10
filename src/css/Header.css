@@ -1,7 +1,10 @@
 p {
   color: #faf1e4;
   font-size: 1.2em;
-  margin-left: 5.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-left: 1.75vw;
+  margin-right: 1.75vw;
 }
 
 .link {
