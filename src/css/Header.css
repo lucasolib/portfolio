@@ -85,7 +85,7 @@ p {
 
   .dropDown {
     margin-top: 25px;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
   }
