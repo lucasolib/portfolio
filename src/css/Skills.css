@@ -198,7 +198,7 @@
 @media screen and (max-width: 818px) {
   .skillsPage {
     width: 100%;
-    /* min-height: 100vh; */
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
